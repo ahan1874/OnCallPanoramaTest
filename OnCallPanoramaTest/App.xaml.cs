@@ -17,6 +17,8 @@ namespace OnCallPanoramaTest
     {
         private static MainViewModel viewModel = null;
 
+
+
         /// <summary>
         /// A static ViewModel used by the views to bind against.
         /// </summary>
@@ -31,6 +33,8 @@ namespace OnCallPanoramaTest
 
                 return viewModel;
             }
+
+
         }
 
         /// <summary>

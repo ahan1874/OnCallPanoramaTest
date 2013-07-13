@@ -48,15 +48,9 @@
                                 <StackPanel Width="311" Margin="8,-7,0,0">
                                     <TextBlock Text="{Binding Name}"  TextWrapping="Wrap" Margin="10,0" Style="{StaticResource PhoneTextExtraLargeStyle}" FontSize="{StaticResource PhoneFontSizeLarge}" />
 
-                                    <!--<TextBlock Text="{Binding Phone}" TextWrapping="Wrap" Margin="10,-2,10,0" Style="{StaticResource PhoneTextSubtleStyle}" Tap="Call_Click"/>
-
-                                    <TextBlock Text="{Binding Email}" TextWrapping="Wrap" Margin="10,-2,10,0" Style="{StaticResource PhoneTextSubtleStyle}" Tap="Email_Click"/>-->
-
                                     <TextBlock Text="{Binding Phone}" Height="40" TextWrapping="Wrap" Margin="10,-2,10,0" VerticalAlignment="Center" Style="{StaticResource PhoneTextSubtleStyle}" Tap="TextBlock_Tap_1" />
 
                                     <TextBlock Text="{Binding Email}" Height="60" TextWrapping="Wrap" Margin="10,-2,10,0" VerticalAlignment="Center" Style="{StaticResource PhoneTextSubtleStyle}" Tap="TextBlock_Tap_2"/>
-
-                                    <!--<TextBlock Text="{Binding DaysLeftOnCall}" TextWrapping="Wrap" Margin="10,-2,10,0" Style="{StaticResource PhoneTextSubtleStyle}" />-->
                                 </StackPanel>
                             </StackPanel>
                         </DataTemplate>
@@ -65,7 +59,7 @@
             </phone:PanoramaItem>
 
             <!--Panorama item three-->
-            <phone:PanoramaItem Header="third item" Orientation="Horizontal">
+            <phone:PanoramaItem Header="Candiate List" Orientation="Horizontal">
                 <!--Double wide Panorama with large image placeholders-->
                 <Grid>
                     <StackPanel Margin="0,4,16,0" Orientation="Vertical" VerticalAlignment="Top">
